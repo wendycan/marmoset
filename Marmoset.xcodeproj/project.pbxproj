@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03F438A01EF5453C0079B8A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F4389F1EF5453C0079B8A4 /* AppDelegate.swift */; };
+		03F438A21EF5453C0079B8A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F438A11EF5453C0079B8A4 /* ViewController.swift */; };
+		03F438A51EF5453C0079B8A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F438A31EF5453C0079B8A4 /* Main.storyboard */; };
+		03F438A71EF5453C0079B8A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F438A61EF5453C0079B8A4 /* Assets.xcassets */; };
+		03F438AA1EF5453C0079B8A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F438A81EF5453C0079B8A4 /* LaunchScreen.storyboard */; };
+		03F438B51EF5453C0079B8A4 /* MarmosetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F438B41EF5453C0079B8A4 /* MarmosetTests.swift */; };
+		03F438C01EF5453D0079B8A4 /* MarmosetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F438BF1EF5453D0079B8A4 /* MarmosetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03F438B11EF5453C0079B8A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F438941EF5453C0079B8A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F4389B1EF5453C0079B8A4;
+			remoteInfo = Marmoset;
+		};
+		03F438BC1EF5453D0079B8A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F438941EF5453C0079B8A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F4389B1EF5453C0079B8A4;
+			remoteInfo = Marmoset;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F4389C1EF5453C0079B8A4 /* Marmoset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marmoset.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F4389F1EF5453C0079B8A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03F438A11EF5453C0079B8A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03F438A41EF5453C0079B8A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03F438A61EF5453C0079B8A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03F438A91EF5453C0079B8A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03F438AB1EF5453C0079B8A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F438B01EF5453C0079B8A4 /* MarmosetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarmosetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F438B41EF5453C0079B8A4 /* MarmosetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarmosetTests.swift; sourceTree = "<group>"; };
+		03F438B61EF5453C0079B8A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F438BB1EF5453D0079B8A4 /* MarmosetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarmosetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F438BF1EF5453D0079B8A4 /* MarmosetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarmosetUITests.swift; sourceTree = "<group>"; };
+		03F438C11EF5453D0079B8A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03F438991EF5453C0079B8A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F438AD1EF5453C0079B8A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F438B81EF5453D0079B8A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03F438931EF5453C0079B8A4 = {
+			isa = PBXGroup;
+			children = (
+				03F4389E1EF5453C0079B8A4 /* Marmoset */,
+				03F438B31EF5453C0079B8A4 /* MarmosetTests */,
+				03F438BE1EF5453D0079B8A4 /* MarmosetUITests */,
+				03F4389D1EF5453C0079B8A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03F4389D1EF5453C0079B8A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03F4389C1EF5453C0079B8A4 /* Marmoset.app */,
+				03F438B01EF5453C0079B8A4 /* MarmosetTests.xctest */,
+				03F438BB1EF5453D0079B8A4 /* MarmosetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03F4389E1EF5453C0079B8A4 /* Marmoset */ = {
+			isa = PBXGroup;
+			children = (
+				03F4389F1EF5453C0079B8A4 /* AppDelegate.swift */,
+				03F438A11EF5453C0079B8A4 /* ViewController.swift */,
+				03F438A31EF5453C0079B8A4 /* Main.storyboard */,
+				03F438A61EF5453C0079B8A4 /* Assets.xcassets */,
+				03F438A81EF5453C0079B8A4 /* LaunchScreen.storyboard */,
+				03F438AB1EF5453C0079B8A4 /* Info.plist */,
+			);
+			path = Marmoset;
+			sourceTree = "<group>";
+		};
+		03F438B31EF5453C0079B8A4 /* MarmosetTests */ = {
+			isa = PBXGroup;
+			children = (
+				03F438B41EF5453C0079B8A4 /* MarmosetTests.swift */,
+				03F438B61EF5453C0079B8A4 /* Info.plist */,
+			);
+			path = MarmosetTests;
+			sourceTree = "<group>";
+		};
+		03F438BE1EF5453D0079B8A4 /* MarmosetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03F438BF1EF5453D0079B8A4 /* MarmosetUITests.swift */,
+				03F438C11EF5453D0079B8A4 /* Info.plist */,
+			);
+			path = MarmosetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03F4389B1EF5453C0079B8A4 /* Marmoset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F438C41EF5453D0079B8A4 /* Build configuration list for PBXNativeTarget "Marmoset" */;
+			buildPhases = (
+				03F438981EF5453C0079B8A4 /* Sources */,
+				03F438991EF5453C0079B8A4 /* Frameworks */,
+				03F4389A1EF5453C0079B8A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Marmoset;
+			productName = Marmoset;
+			productReference = 03F4389C1EF5453C0079B8A4 /* Marmoset.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03F438AF1EF5453C0079B8A4 /* MarmosetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F438C71EF5453D0079B8A4 /* Build configuration list for PBXNativeTarget "MarmosetTests" */;
+			buildPhases = (
+				03F438AC1EF5453C0079B8A4 /* Sources */,
+				03F438AD1EF5453C0079B8A4 /* Frameworks */,
+				03F438AE1EF5453C0079B8A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F438B21EF5453C0079B8A4 /* PBXTargetDependency */,
+			);
+			name = MarmosetTests;
+			productName = MarmosetTests;
+			productReference = 03F438B01EF5453C0079B8A4 /* MarmosetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03F438BA1EF5453D0079B8A4 /* MarmosetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F438CA1EF5453D0079B8A4 /* Build configuration list for PBXNativeTarget "MarmosetUITests" */;
+			buildPhases = (
+				03F438B71EF5453D0079B8A4 /* Sources */,
+				03F438B81EF5453D0079B8A4 /* Frameworks */,
+				03F438B91EF5453D0079B8A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F438BD1EF5453D0079B8A4 /* PBXTargetDependency */,
+			);
+			name = MarmosetUITests;
+			productName = MarmosetUITests;
+			productReference = 03F438BB1EF5453D0079B8A4 /* MarmosetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03F438941EF5453C0079B8A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "王欣";
+				TargetAttributes = {
+					03F4389B1EF5453C0079B8A4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					03F438AF1EF5453C0079B8A4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03F4389B1EF5453C0079B8A4;
+					};
+					03F438BA1EF5453D0079B8A4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03F4389B1EF5453C0079B8A4;
+					};
+				};
+			};
+			buildConfigurationList = 03F438971EF5453C0079B8A4 /* Build configuration list for PBXProject "Marmoset" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03F438931EF5453C0079B8A4;
+			productRefGroup = 03F4389D1EF5453C0079B8A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03F4389B1EF5453C0079B8A4 /* Marmoset */,
+				03F438AF1EF5453C0079B8A4 /* MarmosetTests */,
+				03F438BA1EF5453D0079B8A4 /* MarmosetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03F4389A1EF5453C0079B8A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F438AA1EF5453C0079B8A4 /* LaunchScreen.storyboard in Resources */,
+				03F438A71EF5453C0079B8A4 /* Assets.xcassets in Resources */,
+				03F438A51EF5453C0079B8A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F438AE1EF5453C0079B8A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F438B91EF5453D0079B8A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03F438981EF5453C0079B8A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F438A21EF5453C0079B8A4 /* ViewController.swift in Sources */,
+				03F438A01EF5453C0079B8A4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F438AC1EF5453C0079B8A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F438B51EF5453C0079B8A4 /* MarmosetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F438B71EF5453D0079B8A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F438C01EF5453D0079B8A4 /* MarmosetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03F438B21EF5453C0079B8A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F4389B1EF5453C0079B8A4 /* Marmoset */;
+			targetProxy = 03F438B11EF5453C0079B8A4 /* PBXContainerItemProxy */;
+		};
+		03F438BD1EF5453D0079B8A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F4389B1EF5453C0079B8A4 /* Marmoset */;
+			targetProxy = 03F438BC1EF5453D0079B8A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03F438A31EF5453C0079B8A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F438A41EF5453C0079B8A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03F438A81EF5453C0079B8A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F438A91EF5453C0079B8A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03F438C21EF5453D0079B8A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03F438C31EF5453D0079B8A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03F438C51EF5453D0079B8A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Marmoset/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanbay.Marmoset;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		03F438C61EF5453D0079B8A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Marmoset/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanbay.Marmoset;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		03F438C81EF5453D0079B8A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MarmosetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanbay.MarmosetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marmoset.app/Marmoset";
+			};
+			name = Debug;
+		};
+		03F438C91EF5453D0079B8A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MarmosetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanbay.MarmosetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marmoset.app/Marmoset";
+			};
+			name = Release;
+		};
+		03F438CB1EF5453D0079B8A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MarmosetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanbay.MarmosetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Marmoset;
+			};
+			name = Debug;
+		};
+		03F438CC1EF5453D0079B8A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MarmosetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanbay.MarmosetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Marmoset;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03F438971EF5453C0079B8A4 /* Build configuration list for PBXProject "Marmoset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F438C21EF5453D0079B8A4 /* Debug */,
+				03F438C31EF5453D0079B8A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F438C41EF5453D0079B8A4 /* Build configuration list for PBXNativeTarget "Marmoset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F438C51EF5453D0079B8A4 /* Debug */,
+				03F438C61EF5453D0079B8A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03F438C71EF5453D0079B8A4 /* Build configuration list for PBXNativeTarget "MarmosetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F438C81EF5453D0079B8A4 /* Debug */,
+				03F438C91EF5453D0079B8A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03F438CA1EF5453D0079B8A4 /* Build configuration list for PBXNativeTarget "MarmosetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F438CB1EF5453D0079B8A4 /* Debug */,
+				03F438CC1EF5453D0079B8A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03F438941EF5453C0079B8A4 /* Project object */;
+}
