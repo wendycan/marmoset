@@ -1,0 +1,6 @@
+framework module BayEssentials {
+  umbrella header "BayEssentials-umbrella.h"
+
+  export *
+  module * { export * }
+}

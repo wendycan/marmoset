@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Marmoset
-//
-//  Created by 王欣 on 6/17/17.
-//  Copyright © 2017 王欣. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
@@ -15,7 +7,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        window = UIWindow(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
+        let webviewController = HomeViewController()
+
+        let navigationController = UINavigationController.init(rootViewController: webviewController)
+
+        window?.rootViewController = navigationController
+
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

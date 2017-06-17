@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  Marmoset
-//
-//  Created by 王欣 on 6/17/17.
-//  Copyright © 2017 王欣. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
