@@ -6,7 +6,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let textColor = UIColor(red: CGFloat(51.0/255.0), green: CGFloat(51.0/255.0), blue: CGFloat(51.0/255.0), alpha: CGFloat(1.0))
+        let textColor = UIColor(red: CGFloat(145.0/255.0), green: CGFloat(145.0/255.0), blue: CGFloat(145.0/255.0), alpha: CGFloat(1.0))
         
         view.backgroundColor = UIColor(red: CGFloat(235.0/255.0), green: CGFloat(235.0/255.0), blue: CGFloat(235.0/255.0), alpha: CGFloat(1.0))
         
@@ -35,25 +35,25 @@ class HomeViewController: UIViewController {
         
         homeLabel.snp.makeConstraints { make in
             make.top.equalTo(tabbarView)
-            make.width.equalTo(tabbarView.snp.width).dividedBy(2)
+            make.width.equalTo(tabbarView.snp.width).dividedBy(3)
             make.centerY.equalTo(tabbarView)
-            make.centerX.equalTo(tabbarView.snp.centerX).offset(-view.bounds.width/4)
+            make.centerX.equalTo(tabbarView.snp.left).offset(view.bounds.width/6)
         }
 
-//        let webviewLabel = UILabel()
-//        webviewLabel.font = UIFont.systemFont(ofSize: 20)
-//        webviewLabel.textColor = textColor
-//        webviewLabel.backgroundColor = UIColor.red
-//        webviewLabel.text = "Webview"
-//        
-//        view.addSubview(webviewLabel)
-//        
-//        webviewLabel.snp.makeConstraints { make in
-//            make.top.equalTo(tabbarView)
-//            make.width.equalTo(tabbarView.snp.width).dividedBy(2)
-//            make.centerY.equalTo(tabbarView)
-//            make.centerX.equalTo(tabbarView.snp.centerX).offset(view.bounds.width/4)
-//        }
+        let webviewLabel = UILabel()
+        webviewLabel.font = UIFont.systemFont(ofSize: 20)
+        webviewLabel.textColor = textColor
+        webviewLabel.text = "网页"
+        webviewLabel.textAlignment = .center
+        
+        view.addSubview(webviewLabel)
+        
+        webviewLabel.snp.makeConstraints { make in
+            make.top.equalTo(tabbarView)
+            make.width.equalTo(tabbarView.snp.width).dividedBy(3)
+            make.centerY.equalTo(tabbarView)
+            make.centerX.equalTo(tabbarView.snp.left).offset(view.bounds.width/2)
+        }
 
         
         let mineLabel = UILabel()
@@ -66,9 +66,9 @@ class HomeViewController: UIViewController {
         
         mineLabel.snp.makeConstraints { make in
             make.top.equalTo(tabbarView)
-            make.width.equalTo(tabbarView.snp.width).dividedBy(2)
+            make.width.equalTo(tabbarView.snp.width).dividedBy(3)
             make.centerY.equalTo(tabbarView)
-            make.centerX.equalTo(tabbarView.snp.centerX).offset(view.bounds.width/4)
+            make.centerX.equalTo(tabbarView.snp.left).offset(view.bounds.width * 5/6)
         }
     }
     
