@@ -1,0 +1,6 @@
+framework module Pods_MarmosetTests {
+  umbrella header "Pods-MarmosetTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
