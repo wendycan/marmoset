@@ -6,6 +6,8 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let textColor = UIColor(red: CGFloat(51.0/255.0), green: CGFloat(51.0/255.0), blue: CGFloat(51.0/255.0), alpha: CGFloat(1.0))
+        
         view.backgroundColor = UIColor(red: CGFloat(235.0/255.0), green: CGFloat(235.0/255.0), blue: CGFloat(235.0/255.0), alpha: CGFloat(1.0))
         
         let tabbarView = UIView()
@@ -22,15 +24,52 @@ class HomeViewController: UIViewController {
             make.width.equalToSuperview()
             make.bottom.equalToSuperview()
         }
+        
+        let homeLabel = UILabel()
+        homeLabel.font = UIFont.systemFont(ofSize: 20)
+        homeLabel.textColor = textColor
+        homeLabel.text = "首页"
+        homeLabel.textAlignment = .center
+        
+        view.addSubview(homeLabel)
+        
+        homeLabel.snp.makeConstraints { make in
+            make.top.equalTo(tabbarView)
+            make.width.equalTo(tabbarView.snp.width).dividedBy(2)
+            make.centerY.equalTo(tabbarView)
+            make.centerX.equalTo(tabbarView.snp.centerX).offset(-view.bounds.width/4)
+        }
 
-//        let label = UILabel()
-//        label.font = UIFont.systemFont(ofSize: 14)
-//        label.text = "xxxxxxasfasfasfasf"
-//        view.addSubview(label)
+//        let webviewLabel = UILabel()
+//        webviewLabel.font = UIFont.systemFont(ofSize: 20)
+//        webviewLabel.textColor = textColor
+//        webviewLabel.backgroundColor = UIColor.red
+//        webviewLabel.text = "Webview"
 //        
-//        label.snp.makeConstraints { make in
-//            make.center.equalToSuperview()
+//        view.addSubview(webviewLabel)
+//        
+//        webviewLabel.snp.makeConstraints { make in
+//            make.top.equalTo(tabbarView)
+//            make.width.equalTo(tabbarView.snp.width).dividedBy(2)
+//            make.centerY.equalTo(tabbarView)
+//            make.centerX.equalTo(tabbarView.snp.centerX).offset(view.bounds.width/4)
 //        }
+
+        
+        let mineLabel = UILabel()
+        mineLabel.font = UIFont.systemFont(ofSize: 20)
+        mineLabel.textColor = textColor
+        mineLabel.text = "我的"
+        mineLabel.textAlignment = .center
+        
+        view.addSubview(mineLabel)
+        
+        mineLabel.snp.makeConstraints { make in
+            make.top.equalTo(tabbarView)
+            make.width.equalTo(tabbarView.snp.width).dividedBy(2)
+            make.centerY.equalTo(tabbarView)
+            make.centerX.equalTo(tabbarView.snp.centerX).offset(view.bounds.width/4)
+        }
     }
     
     override func didReceiveMemoryWarning() {
