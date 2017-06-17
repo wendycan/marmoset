@@ -22,9 +22,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marmoset" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkG-og-hO6">
-                                <rect key="frame" x="91" y="313" width="192.5" height="40"/>
-                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="40"/>
-                                <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="79.5" y="310.5" width="216.5" height="45"/>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="45"/>
+                                <color key="textColor" red="0.30196078431372547" green="0.38823529411764707" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
