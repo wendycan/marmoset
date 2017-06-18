@@ -26,7 +26,7 @@ class HomeViewController: UIViewController {
         }
         
         let homeLabel = UILabel()
-        homeLabel.font = UIFont.systemFont(ofSize: 20)
+        homeLabel.font = UIFont.systemFont(ofSize: 16)
         homeLabel.textColor = textColor
         homeLabel.text = "首页"
         homeLabel.textAlignment = .center
@@ -41,7 +41,7 @@ class HomeViewController: UIViewController {
         }
 
         let webviewLabel = UILabel()
-        webviewLabel.font = UIFont.systemFont(ofSize: 20)
+        webviewLabel.font = UIFont.systemFont(ofSize: 16)
         webviewLabel.textColor = textColor
         webviewLabel.text = "网页"
         webviewLabel.textAlignment = .center
@@ -57,7 +57,7 @@ class HomeViewController: UIViewController {
 
         
         let mineLabel = UILabel()
-        mineLabel.font = UIFont.systemFont(ofSize: 20)
+        mineLabel.font = UIFont.systemFont(ofSize: 16)
         mineLabel.textColor = textColor
         mineLabel.text = "我的"
         mineLabel.textAlignment = .center
@@ -70,6 +70,15 @@ class HomeViewController: UIViewController {
             make.centerY.equalTo(tabbarView)
             make.centerX.equalTo(tabbarView.snp.left).offset(view.bounds.width * 5/6)
         }
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(tapLabelFunc))
+        webviewLabel.isUserInteractionEnabled = true
+        webviewLabel.addGestureRecognizer(tap)
+    }
+    
+    func tapLabelFunc() {
+        let weviewViewController = WebViewController()
+        navigationController?.pushViewController(weviewViewController, animated: true)
     }
     
     override func didReceiveMemoryWarning() {
