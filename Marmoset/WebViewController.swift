@@ -18,13 +18,14 @@ class TextField: UITextField {
 }
 
 class WebViewController: UIViewController {
+
+    let webView = UIWebView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
          view.backgroundColor = UIColor(red: CGFloat(235.0/255.0), green: CGFloat(235.0/255.0), blue: CGFloat(235.0/255.0), alpha: CGFloat(1.0))
-        
-        let webView = UIWebView()
+
         view.addSubview(webView)
 
         webView.snp.makeConstraints { make in
@@ -56,8 +57,7 @@ class WebViewController: UIViewController {
             webView.loadRequest(request)
         }
         
-        // FIXI
-        textField.delegate = WebViewController
+        textField.delegate = self
     }
 }
 
@@ -69,7 +69,6 @@ extension WebViewController: UITextFieldDelegate {
         if let text = textField.text {
             if let url = URL(string: text) {
                 let request = URLRequest(url: url)
-                // FIXI
                 webView.loadRequest(request)
             }
         }
