@@ -18,7 +18,7 @@ class TextField: UITextField {
 }
 
 class WebViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -36,7 +36,7 @@ class WebViewController: UIViewController {
         
         let textField = TextField()
         view.addSubview(textField)
-        
+
         textField.backgroundColor = UIColor(red: CGFloat(255.0/255.0), green: CGFloat(255.0/255.0), blue: CGFloat(255.0/255.0), alpha: CGFloat(1.0))
         textField.placeholder = "输入网址："
         textField.keyboardType = .URL
@@ -55,5 +55,39 @@ class WebViewController: UIViewController {
             let request = URLRequest.init(url: url)
             webView.loadRequest(request)
         }
+        
+        // FIXI
+        textField.delegate = WebViewController
+    }
+}
+
+extension WebViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
+        textField.resignFirstResponder()
+        
+        if let text = textField.text {
+            if let url = URL(string: text) {
+                let request = URLRequest(url: url)
+                // FIXI
+                webView.loadRequest(request)
+            }
+        }
+        
+        return true;
+    }
+}
+
+extension WebViewController: UIWebViewDelegate {
+    func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebViewNavigationType) -> Bool {
+        return true
+    }
+    
+    func webViewDidStartLoad(_ webView: UIWebView) {
+        print("loading")
+    }
+    
+    func webViewDidFinishLoad(_ webView: UIWebView) {
+        print("finished")
     }
 }
