@@ -27,12 +27,14 @@ class WebViewController: UIViewController {
          view.backgroundColor = UIColor(red: CGFloat(235.0/255.0), green: CGFloat(235.0/255.0), blue: CGFloat(235.0/255.0), alpha: CGFloat(1.0))
 
         view.addSubview(webView)
-
+        
+        webView.backgroundColor = UIColor(red: CGFloat(245.0/255.0), green: CGFloat(245.0/255.0), blue: CGFloat(245.0/255.0), alpha: CGFloat(1.0))
         webView.snp.makeConstraints { make in
             make.height.equalTo(view.bounds.height - 60)
             make.width.equalToSuperview()
             make.bottom.equalToSuperview()
             make.left.equalToSuperview()
+            make.top.equalTo(60)
         }
         
         let textField = TextField()
