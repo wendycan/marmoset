@@ -2,11 +2,14 @@ import UIKit
 import SnapKit
 
 class HomeViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.title = "Marmoset"
+        
         let textColor = UIColor(red: CGFloat(145.0/255.0), green: CGFloat(145.0/255.0), blue: CGFloat(145.0/255.0), alpha: CGFloat(1.0))
+        
         
         view.backgroundColor = UIColor(red: CGFloat(235.0/255.0), green: CGFloat(235.0/255.0), blue: CGFloat(235.0/255.0), alpha: CGFloat(1.0))
         

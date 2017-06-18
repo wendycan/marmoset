@@ -11,6 +11,8 @@ target 'Marmoset' do
 
   pod 'BayEssentials'
   pod 'SnapKit'
+  pod 'Toaster'
+  pod 'NVActivityIndicatorView'
 
   # Pods for Marmoset
 
