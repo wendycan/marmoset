@@ -36,6 +36,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let navigationController = UINavigationController.init(rootViewController: tabBarController)
         
+        tabBarController.title = "Marmoset"
+
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
         
