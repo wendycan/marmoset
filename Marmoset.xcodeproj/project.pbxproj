@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0320C55A1EFE13350039B5AE /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320C5591EFE13350039B5AE /* MineViewController.swift */; };
 		03AEC1FA1EF56C30001A8D1A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AEC1F91EF56C30001A8D1A /* HomeViewController.swift */; };
 		03AEC1FC1EF57034001A8D1A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AEC1FB1EF57034001A8D1A /* WebViewController.swift */; };
 		03F438A01EF5453C0079B8A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F4389F1EF5453C0079B8A4 /* AppDelegate.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0320C5591EFE13350039B5AE /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		03AEC1F91EF56C30001A8D1A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		03AEC1FB1EF57034001A8D1A /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		03F4389C1EF5453C0079B8A4 /* Marmoset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marmoset.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +128,7 @@
 				03F438AB1EF5453C0079B8A4 /* Info.plist */,
 				03AEC1F91EF56C30001A8D1A /* HomeViewController.swift */,
 				03AEC1FB1EF57034001A8D1A /* WebViewController.swift */,
+				0320C5591EFE13350039B5AE /* MineViewController.swift */,
 			);
 			path = Marmoset;
 			sourceTree = "<group>";
@@ -457,6 +460,7 @@
 				03F438A01EF5453C0079B8A4 /* AppDelegate.swift in Sources */,
 				03AEC1FA1EF56C30001A8D1A /* HomeViewController.swift in Sources */,
 				03AEC1FC1EF57034001A8D1A /* WebViewController.swift in Sources */,
+				0320C55A1EFE13350039B5AE /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

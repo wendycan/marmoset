@@ -9,10 +9,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         window = UIWindow(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
-
-        let webviewController = HomeViewController()
-        let navigationController = UINavigationController.init(rootViewController: webviewController)
-
+        
+        // 4d6387, rgba(77, 99, 135, 1)
+        // a76539, rgba(167, 101, 57, 1)
+        
+        let primaryColor = UIColor.init(red: CGFloat(77.0/255), green: CGFloat(99.0/255), blue: CGFloat(135.0/255), alpha: CGFloat(1.0))
+        
+        let homeViewController = HomeViewController()
+        let webViewController = WebViewController()
+        let mineViewController = MineViewController()
+        
+        let tabBarController = UITabBarController()
+        
+        let homeTabBarItem = UITabBarItem.init(title: "首页", image: UIImage(named: "home"), selectedImage: UIImage(named: "home-active")?.withRenderingMode(.alwaysOriginal))
+        homeViewController.tabBarItem = homeTabBarItem
+        
+        let webTabBarItem = UITabBarItem.init(title: "网页", image: UIImage(named: "browse"), selectedImage: UIImage(named: "browse-active")?.withRenderingMode(.alwaysOriginal))
+        webViewController.tabBarItem = webTabBarItem
+        
+        let mineTabBarItem = UITabBarItem.init(title: "我的", image: UIImage(named: "user"), selectedImage: UIImage(named: "user-active")?.withRenderingMode(.alwaysOriginal))
+        mineViewController.tabBarItem = mineTabBarItem
+        
+        UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: primaryColor], for: .selected)
+        
+        tabBarController.viewControllers = [homeViewController, webViewController, mineViewController]
+        
+        let navigationController = UINavigationController.init(rootViewController: tabBarController)
+        
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
         
