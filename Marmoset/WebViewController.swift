@@ -101,6 +101,10 @@ extension WebViewController: UIWebViewDelegate {
     
     func webViewDidFinishLoad(_ webView: UIWebView) {
         activityIndicatorView.stopAnimating()
+        
+        // insert script
+        let script = ""
+        self.webView.stringByEvaluatingJavaScript(from: script)
     }
     
     func webView(_ webView: UIWebView, didFailLoadWithError error: Error) {
